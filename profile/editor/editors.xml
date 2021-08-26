@@ -1,0 +1,27 @@
+<editors>
+    <!-- Boolean -->
+    <editor id="bool">
+        <range uom="2" subset="0,1" />
+    </editor>
+    <editor id="onoff">
+        <range uom="80" subset="0,1" nls="ONOFF" />
+    </editor>
+    <editor id="OPNCLS">
+        <range uom="25" subset="0-256" nls="OPNCLS" />    
+    </editor>
+    <editor id="I_DEBUG">
+        <range uom="25" subset="9,10,20,30,40,50" nls="CDM"/>
+    </editor>
+    <editor id="RAWVAL">
+        <range uom="56" min="0" max="10000" prec="0" />
+    </editor>
+    <editor id="FAHVAL">
+        <range uom="17" min="0" max="1000" prec="2" />
+    </editor>
+    <editor id="openclose">
+        <range uom="25" subset="0,1" nls="STATUS" />
+    </editor>
+    <editor id="STATUS">
+        <range uom="80" subset="0,1" />      
+    </editor>
+</editors>

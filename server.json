@@ -1,0 +1,36 @@
+{
+	"name": "BASGARAGE",
+	"docs": "https://github.com/sjpbailey/udi-poly-basgarage-python-master-v3/README",
+	"type": "python3",
+	"executable": "BAS-Garage.py",
+	"install": "install.sh",
+	"description": "Wifi Garage Door Controller for Six Garage Doors",
+	"notice": "Use at your own risk always follow safety cautions",
+	"shortPoll": "60",
+	"longPoll": "240",
+	"testMode": false,
+	"logLevel": "INFO",
+	"profile_version": "3.0.6",
+	"customParams": {
+		"door_ip": "127.0.0.1"
+	},
+	"credits": [
+		{
+			"title": "BASGARAGE: WiFi Garage Door Opener for six garage doors",
+			"author": "Steve Bailey (SJPBailey)",
+			"version": "3.0.6",
+			"date": "Agust 2, 2021",
+			"source": "https://github.com/sjpbailey/udi-poly-basgarage-python-master-v3",
+			"license": "https://github.com/sjpbailey/udi-poly-basgarage-python-master-v3/LICENSE"
+		}
+	],
+	"store": {
+		"developer": "Steve Bailey sjpbailey1961@gmail.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
+}

@@ -1,0 +1,64 @@
+
+# controller
+ND-controller-NAME = Door Controller
+ND-controller-ICON = Electricity
+CMD-ctl-QUERY-NAME = Query
+CMD-ctl-UPDATE_PROFILE-NAME = Update Profile
+CMD-ctl-REMOVE_NOTICES_ALL-NAME = Remove All Notices
+CMD-ctl-REMOVE_NOTICE_TEST-NAME = Remove Notice Test
+CMD-ctl-SET_DM-NAME = Set Logger Level
+ST-ctl-ST-NAME = NodeServer Online
+
+# Debug/Logger Modes
+CDM-9 = Debug + Modules
+CDM-10 = Debug
+CDM-20 = Info
+CDM-30 = Warning
+CDM-40 = Error
+CDM-50 = Critical
+
+# mynodetype
+ND-baspidoor1_id-NAME = Doors 1-6
+ND-baspidoor1_id-ICON = Electricity
+ST-BASPI1-GV0-NAME = Door-1 Status
+ST-BASPI1-GV6-NAME = Door-1 Command
+ST-BASPI1-GV21-NAME = -
+ST-BASPI1-GV1-NAME = Door-2 Status
+ST-BASPI1-GV7-NAME = Door-2 Command
+ST-BASPI1-GV22-NAME = -
+ST-BASPI1-GV2-NAME = Door-3 Status
+ST-BASPI1-GV8-NAME = Door-3 Command
+ST-BASPI1-GV23-NAME = -
+ST-BASPI1-GV3-NAME = Door-4 Status
+ST-BASPI1-GV9-NAME = Door-4 Command
+ST-BASPI1-GV24-NAME = -
+ST-BASPI1-GV4-NAME = Door-5 Status 
+ST-BASPI1-GV10-NAME = Door-5 Command
+ST-BASPI1-GV25-NAME = -
+ST-BASPI1-GV5-NAME = Door-6 Status 
+ST-BASPI1-GV11-NAME = Door-6 Command
+ST-BASPI1-GV26-NAME = -
+
+
+CMD-BASPI1-BON1-NAME = Enable-1
+CMD-BASPI1-BON2-NAME = Enable-2
+CMD-BASPI1-BON3-NAME = Enable-3
+CMD-BASPI1-BON4-NAME = Enable-4
+CMD-BASPI1-BON5-NAME = Enable-5
+CMD-BASPI1-BON6-NAME = Enable-6
+CMD-BASPI1-BOB1-NAME = Bump-1
+CMD-BASPI1-BOB2-NAME = Bump-2
+CMD-BASPI1-BOB3-NAME = Bump-3
+CMD-BASPI1-BOB4-NAME = Bump-4
+CMD-BASPI1-BOB5-NAME = Bump-5
+CMD-BASPI1-BOB6-NAME = Bump-6
+CMD-BASPI1-PING-NAME = Query
+
+ONOFF-1 = On
+ONOFF-0 = Off
+
+OPNCLS-0 = Stopped
+OPNCLS-1 = Refresh
+OPNCLS-5 = Open
+OPNCLS-12 = Closed
+OPNCLS-255 = Operating

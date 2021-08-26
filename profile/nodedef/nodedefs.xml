@@ -1,0 +1,60 @@
+<nodeDefs>
+    <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+    <!-- controller, this must mach the id in your Controller class-->
+    <nodeDef id="controller" nls="ctl">
+        <editors />
+        <sts>
+		<st id="ST" editor="bool" />
+	</sts>
+        <cmds>
+            <sends />
+            <accepts>
+            <cmd id="QUERY" />
+            <cmd id="REMOVE_NOTICES_ALL" />
+            <cmd id="REMOVE_NOTICE_TEST" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+	<!-- templatenodeid -->
+    <nodeDef id="baspidoor1_id" nls="BASPI1">
+        <editors />
+        <sts>
+            <st id="GV0" editor="OPNCLS" />
+            <st id="GV6" editor="STATUS" />
+            <st id="GV21" editor="RAWVAL" />
+            <st id="GV1" editor="OPNCLS" />
+            <st id="GV7" editor="STATUS" />
+            <st id="GV22" editor="RAWVAL" />
+            <st id="GV2" editor="OPNCLS" />
+            <st id="GV8" editor="STATUS" />
+            <st id="GV23" editor="RAWVAL" />
+            <st id="GV3" editor="OPNCLS" />
+            <st id="GV9" editor="STATUS" />
+            <st id="GV24" editor="RAWVAL" />
+            <st id="GV4" editor="OPNCLS" />
+            <st id="GV10" editor="STATUS" />
+            <st id="GV25" editor="RAWVAL" />
+            <st id="GV5" editor="OPNCLS" />
+            <st id="GV11" editor="STATUS" />
+            <st id="GV26" editor="RAWVAL" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="BON1" />
+                <cmd id="BOB1" />
+                <cmd id="BON2" />
+                <cmd id="BOB2" />
+                <cmd id="BON3" />
+                <cmd id="BOB3" />
+                <cmd id="BON4" />
+                <cmd id="BOB4" />
+                <cmd id="BON5" />
+                <cmd id="BOB5" />
+                <cmd id="BON6" />
+                <cmd id="BOB6" />
+                <cmd id="PING" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+</nodeDefs>
