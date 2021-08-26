@@ -172,8 +172,3 @@ class BasGarageNode(udi_interface.Node):
                     'BON6': setOn,
                     'PING': query
                 }
-
-    #if __name__ == "__setOn__":
-    #        loop = asyncio.get_event_loop()
-    #        loop.run_until_complete(setOn())
-    #        loop.close()
