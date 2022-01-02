@@ -10,7 +10,7 @@
 	"longPoll": "240",
 	"testMode": false,
 	"logLevel": "INFO",
-	"profile_version": "3.0.6",
+	"profile_version": "3.0.7",
 	"customParams": {
 		"door_ip": "127.0.0.1"
 	},
@@ -18,7 +18,7 @@
 		{
 			"title": "BASGARAGE: WiFi Garage Door Opener for six garage doors",
 			"author": "Steve Bailey (SJPBailey)",
-			"version": "3.0.6",
+			"version": "3.0.7",
 			"date": "Agust 2, 2021",
 			"source": "https://github.com/sjpbailey/udi-poly-basgarage-python-master-v3",
 			"license": "https://github.com/sjpbailey/udi-poly-basgarage-python-master-v3/LICENSE"
