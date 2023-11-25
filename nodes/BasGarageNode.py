@@ -27,7 +27,7 @@ class BasGarageNode(udi_interface.Node):
             LOGGER.info('connected to BASpi-6U6R')
         elif self.bc.ePlatform == Platform.BASC_ED: ### BASpi-Edge Device is found
             LOGGER.info('connected to BASpi-Edge')
-        elif self.bc.ePlatform == Platform.BASC_AO or self.bc.ePlatform == Platform.BASC_EO : ### BASpi-6u4r2ao Device found
+        elif self.bc.ePlatform == Platform.BASC_AO or self.bc.ePlatform == Platform.BASC_ED : ### BASpi-6u4r2ao Device found
             LOGGER.info('connected to BASpi-6u4r2ao and will not work for this Plugin')
         elif self.bc.ePlatform == Platform.BASC_NONE: ### NO Device found
             LOGGER.info('Unable to connect to Device')
