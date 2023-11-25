@@ -33,7 +33,9 @@ class BasGarageNode(udi_interface.Node):
         elif self.bc.ePlatform == Platform.BASC_NONE: ### NO Device found
             LOGGER.info('Unable to connect to Device')
             LOGGER.info(self.door_ip)
-        elif self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_PO or self.bc.ePlatform == Platform.BASC_ED:
+        else:
+            pass
+        if self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_PO or self.bc.ePlatform == Platform.BASC_ED:
             self.setDriver('ST', 1)
             LOGGER.debug('%s: get ST=%s',self.lpfx,self.getDriver('ST'))
         else:
