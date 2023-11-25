@@ -28,7 +28,7 @@ class BasGarageNode(udi_interface.Node):
         elif self.bc.ePlatform == Platform.BASC_ED: ### BASpi-Edge Device is found
             LOGGER.info('connected to BASpi-Edge')
             #self.setDriver('ST', 1)    
-        elif self.bc.ePlatform == Platform.BASC_NONE: ### NO Device found
+        elif self.bc.ePlatform == Platform.BASC_NONE or self.bc.ePlatform == Platform.BASC_AO or self.bc.ePlatform == Platform.BASC_EO: ### NO Device found
             LOGGER.info('Unable to connect to Device')
             LOGGER.info(self.door_ip)
         elif self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_PO or self.bc.ePlatform == Platform.BASC_ED:

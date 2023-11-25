@@ -37,6 +37,7 @@
             <st id="GV5" editor="OPNCLS" />
             <st id="GV11" editor="STATUS" />
             <st id="GV26" editor="RAWVAL" />
+            <st id="ST" editor="bool" />
         </sts>
         <cmds>
             <sends />
