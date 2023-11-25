@@ -27,7 +27,7 @@ class BasGarageNode(udi_interface.Node):
             LOGGER.info('connected to BASpi-6U6R')
         elif self.bc.ePlatform == Platform.BASC_ED: ### BASpi-Edge Device is found
             LOGGER.info('connected to BASpi-Edge')
-            self.setDriver('ST', 1)    
+            #self.setDriver('ST', 1)    
         elif self.bc.ePlatform == Platform.BASC_NONE: ### NO Device found
             LOGGER.info('Unable to connect to Device')
             LOGGER.info(self.door_ip)
@@ -35,8 +35,8 @@ class BasGarageNode(udi_interface.Node):
             self.setDriver('ST', 1)
             LOGGER.debug('%s: get ST=%s',self.lpfx,self.getDriver('ST'))
         else:
-            pass
-
+            self.setDriver("ST", 0)
+        
         # How many nodes or points does the device have
         LOGGER.info('\t' + str(self.bc.uiQty) + ' Universal inputs in this Device')
         LOGGER.info('\t' + str(self.bc.boQty) + ' Binary outputs in this Device')
